@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Amity - Nature Cottage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+        <header>
+        <div class="r-container">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid">
+                    <div class="logo-container">
+                        <a class="navbar-brand" href="#"><img src="image/AMITY.png" alt="logo" class="img-fluid logo"></a>
+                    </div>
+                    <div class="mx-auto">                
+                        <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+                            <ul class="navbar-nav ms-auto mb-2 mb-xl-0 gap-xl-4 gap-1">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html" >Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="team.html" class="nav-link" aria-current="page">team</a>
+                                </li>
+                               
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="price_plan.html">Pricing Plan</a></li>
+                                        <li><a class="dropdown-item" href="team.html">Team</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                                        <li><a class="dropdown-item" href="404.html">404 Error</a></li>
+                                    </ul>
+                                </li>
+                               <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="navbar-toggler nav-btn" type="button"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="social-container">
+                        <a href="https://www.facebook.com/" class="social-item">
+                            <i class="fa-brands fa-1x fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" class="social-item">
+                            <i class="fa-brands fa-1x fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" class="social-item">
+                            <i class="fa-brands fa-1x fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Sidebar -->
+    <div class="overlay"></div>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <img src="image/AMITY.png" class="img-fluid logo" alt="Logo">
+            </div>
+            <button class="close-btn btn-white-accent">&times;</button>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="sidebar-dropdown">
+                <div class="dropdown-header">
+                    <a href="#">Cottages</a>
+                    <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <ul class="sidebar-dropdown-menu">
+                    <li><a href="cottages.html">Cottages</a></li>
+                    <li><a href="cottage_details.html">Cottage Detail</a></li>
+                </ul>
+            </li>        
+            <li class="below-dropdown"><a href="#">Activities</a></li>               
+            <li class="sidebar-dropdown">
+                <div class="dropdown-header">
+                    <a href="#">Pages</a>
+                    <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <ul class="sidebar-dropdown-menu">
+                    <li><a href="price_plan.html">Pricing</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="404.html">404 Page</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-dropdown below-dropdown">
+                <div class="dropdown-header">
+                    <a href="#">Blog</a>
+                    <button class="sidebar-dropdown-btn"><i class="fa-solid fa-angle-down"></i></button>
+                </div>
+                <ul class="sidebar-dropdown-menu">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="single_blog.html">Single Post</a></li>
+                </ul>
+            </li>  
+            <li class="below-dropdown"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+        
+    <!-- main -->
+    <main>
+        <!-- Banner -->
+        <div class="section position-relative banner-image-2">
+            <div class="bg-overlay-2"></div>
+            <div class="r-container position-relative">
+                <div class="d-flex flex-column">
+                    <div class="row row-cols-md-2 row-cols-1">
+                        <div class="col">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column text-start gap-2">
+                                    <h1 class="font-1 accent-color-2">Blog Archive</h1>
+                                    <p class="font-2 accent-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex flex-column justify-content-md-end align-items-md-end align-items-start">
+                                <nav class="breadcrumb">
+                                    <a href="#" class="gap-2">Home</a>
+                                    <span class="separator"><i class="fa-solid fa-angle-right"></i></span>
+                                    <a href="#" class="current gap-2">Blog Archive</a>
+                                </nav>                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogs -->
+
+        <div class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-3">
+                    <div class="row row-cols-md-2 row-cols-1">
+                        <div class="col mb-2">
+                            <div class="d-flex flex-column gap-3">
+                                <h6 class="font-1 accent-color">Insights</h6>
+                                <h2 class="font-1 accent-color-3 fade-in-up">Discover Stories That Inspire Your Next Escape</h2>
+                            </div>
+                        </div>
+                        <div class="col mb-2">
+                    
+                        </div>
+                    </div>
+                    <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 fade-in-up">
+                        <div class="col">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="content4177.html?page=hidden-gems-near-our-cottages-you-must-explore">
+                                        <img src="image/home-7.webp" class="img-fluid" alt="Hidden Gems">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="content4177.html?page=hidden-gems-near-our-cottages-you-must-explore" class="font-1 accent-color-3">
+                                        <h3 class="font-1 accent-color-3 mb-2">Hidden Gems Near Our Cottages You Must Explore</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="content69a7.html?page=how-to-make-the-most-of-a-rainy-day-at-the-cottage">
+                                        <img src="image/home-4.webp" class="img-fluid" alt="Rainy Day">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="content69a7.html?page=how-to-make-the-most-of-a-rainy-day-at-the-cottage" class="font-1 accent-color-3">
+                                        <h3 class="font-1 accent-color-3 mb-2">How to Make the Most of a Rainy Day At the Cottage</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="contentcd1f.html?page=planning-the-ultimate-cozy-cottage-getaway">
+                                        <img src="image/home-0.webp" class="img-fluid" alt="Cozy Cottage">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="contentcd1f.html?page=planning-the-ultimate-cozy-cottage-getaway" class="font-1 accent-color-3">
+                                        <h3 class="font-1 accent-color-3 mb-2">Planing-the Ultimate Cozy Cottage Getaway</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="content8ec0.html?page=a-weekend-in-serenity-your-cottage-experience">
+                                        <img src="image/home-7.webp" class="img-fluid" >
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="content8ec0.html?page=a-weekend-in-serenity-your-cottage-experience" class="font-1 accent-color-3">
+                                        <h3>A Weekend in Serenity: Your Cottage Experience</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="content30da.html?page=the-magic-of-waking-up-in-nature-cottage-escapes">
+                                        <img src="image/home-5.webp" class="img-fluid" alt="Hidden Gems">
+                                    </a> 
+                                </div>
+                                <div>
+                                    <a href="content30da.html?page=the-magic-of-waking-up-in-nature-cottage-escapes" class="font-1 accent-color-3">
+                                        <h3>The Magic of Waking Up in Nature: Cottage Escapes</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="image-container-2 hover-gray">
+                                    <a href="contentf4c1.html?page=10-reason-a-cottage-stay-is-the-perfect-getway">
+                                        <img src="image/home-4.webp" class="img-fluid" alt="Hidden Gems">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="contentf4c1.html?page=10-reason-a-cottage-stay-is-the-perfect-getway" class="font-1 accent-color-3">
+                                        <h3>10 Reason a Cottage Stay is the Perfect Getaway</h3>
+                                    </a>
+                                    <p class="blog-date-post">January 9, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+
+    <!-- Footer -->
+    <footer>
+        <div class="section position-relative text-white pb-0 footer-background-img">
+            <div class="footer-overlay"></div>
+            <div class="r-container position-relative">
+                <div class="d-flex flex-column py-4">
+                    <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 g-5">
+                        <div class="col mb-5">
+                            <div class="d-flex flex-column text-start justify-content-start align-items-start gap-3">
+                                <div class="logo-container">
+                                    <img src="image/amity.html" alt="logo" class="img-fluid logo">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                </p>
+                                <form id="newsletterForm" action="https://amity.creedcreatives.net/php/form_message.php" class="form" action="https://amity.creedcreatives.net/php/form_message.php" method="POST">
+                                    <div class="d-flex">
+                                        <input type="email" name="email" id="email-footer" class="form form-control py-0" placeholder="Email" required>
+                                        <button type="submit" class="btn btn-white-accent ms-3"><i class="fa-regular fa-envelope"></i></button>
+                                    </div>
+                                    <div id="successMessage-footer" class="mt-2 success d-none">
+                                        <p><span class="fa-solid fa-check text-success"></span> Your submission was successful.</p>
+                                    </div>            
+                                    <div id="errorMessage-footer" class="mt-2 failed d-none">
+                                        <p><span class="fa-solid fa-times text-danger"></span> Submission failed. Please try again.</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="d-flex flex-column gap-3">
+                                <h3 class="font-1 accent-color-2">Quick Links</h3>
+                                    <ul class="d-grid list-striped list-accent-2 gap-2">
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Cottages</a></li>
+                                        <li><a href="#">Activities</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="d-flex flex-column gap-3">
+                                <h3 class="font-1 accent-color-2">Support</h3>
+                                <ul class="d-grid list-striped list-accent-2 gap-2">
+                                    <li>
+                                        <a href="#">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms & Condition</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mb-5">
+                            <div class="d-flex flex-column gap-3">
+                                <h3 class="font-1 accent-color-2">Information</h3>
+                                <ul class="d-grid list gap-2">
+                                     <li>
+                                        <span class="d-flex flex-row align-items-center accent-color-2 gap-3">
+                                            <div class="contact-item">
+                                                <i class="fa-solid fa-md fa-phone"></i>
+                                            </div>
+                                            +123-123-123
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="d-flex flex-row align-items-center accent-color-2 gap-3">
+                                            <div class="contact-item">
+                                                <i class="fa-solid fa-md fa-envelope-open-text"></i>
+                                            </div>
+                                            amity@mail.com
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="d-flex flex-row align-items-center accent-color-2 gap-3">
+                                            <div class="contact-item">
+                                                <i class="fa-solid fa-md fa-location-dot"></i>
+                                            </div>
+                                            Pekanbaru, Indonesia
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom border-accent-2"></div>
+                <div class="text-center py-5">
+                    <span class="text-white">Copyright © 2025 Amity Template Kit by Creedcreatives</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+</body>
+
+
+</html>
